@@ -1,0 +1,85 @@
+
+
+@media (max-width: 480px){
+
+  @mixin justify($justify){
+display: flex;
+justify-content:$justify;
+
+    }   
+
+    .pruebaq{
+      
+   @include justify(center);
+  flex-direction:column;
+  align-items: center;      
+       
+     }
+
+   
+.cajaprincipal {
+     
+@include justify(center);
+      flex-direction:column;      
+      align-items: center;
+ 
+  }
+
+.iluminacionto{
+  @include justify(center);
+
+      flex-direction:column;      
+      align-items: center; 
+margin-top: 100px;
+      .container-galeria{
+        grid-template-columns:(1fr 1fr 1fr);
+        grid-template-rows:(1fr 1fr 1fr);
+      }
+    
+      .cabecerainfo{
+        
+        margin-left: 170px;
+
+      }
+}
+
+
+.galeriadecoto{
+  @include justify(center);
+  flex-direction:column;  
+margin-top: 150px;
+  align-items: center;
+
+ 
+  .galeriadeco{
+    margin-top: 0px;
+    grid-template-rows:(1fr 1fr);
+    grid-template-columns:(1fr 1fr 1fr);
+    padding-right: 60px;
+    padding-top: 0px;
+  }
+  .cabeceradeco{
+    margin-right: 30px;
+  }
+  }
+  .ideato{
+     
+    @include justify(center);
+    padding-left: 0px;
+      flex-direction:column;    
+      align-items: center;
+      padding-left: 10px;
+      padding-top: 0px;
+      margin-top: 0;
+  }
+  .galeriaidea{
+    margin-top: 0;
+    grid-template-rows:(1fr 1fr); 
+    grid-template-columns:(1rf 1rf); 
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+      .cabeceraidea{
+        padding-top: 0;
+      }
+}

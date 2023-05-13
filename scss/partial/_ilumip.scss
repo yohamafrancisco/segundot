@@ -1,0 +1,39 @@
+.iluminacionto{
+    display:grid;
+  grid-template-columns:  60% 40%;
+  justify-items: center;
+  text-align: center;
+    height: 100vh;
+  
+    .container-galeria{
+      
+        margin-top: 80px;
+     
+        display:grid;
+        grid-template-columns: repeat(3, 170px);
+        grid-template-rows: repeat(3, 170px);
+       
+        img{
+            width: 100%;
+          height: 100%;
+      }
+      
+       
+    }
+    .cabecerainfo{
+    
+      
+      height: 100vh;
+     
+       display: flex;
+       
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+      
+      margin-right: 200px;
+       padding-bottom: 60px;
+                         
+      }   
+       
+    } 

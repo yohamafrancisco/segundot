@@ -1,0 +1,35 @@
+@import "partial/iniciop";
+@import "partial/reset";
+@import "partial/ilumip";
+@import "partial/decop";
+@import "partial/ideap";
+@import "partial/mediap";
+
+
+.pruebaq{
+   
+    display:flex;
+ 
+    justify-content: space-around;
+    .log1{
+        width: 40px;
+         height: 40px;
+    }
+    .log2 {
+       @extend .log1
+    }
+    .log3{
+       @extend .log1
+    }
+}
+
+
+body {
+
+    background-image:linear-gradient( to left, rgb(228, 228, 214), rgb(129, 133, 83));
+    }
+
+    $color-principal: darkgoldenrod;
+    .container-fluid{
+        background-color: $color-principal;
+    }
