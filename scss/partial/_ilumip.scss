@@ -1,9 +1,10 @@
 .iluminacionto{
+  height: 100vh;
     display:grid;
   grid-template-columns:  60% 40%;
   justify-items: center;
   text-align: center;
-    height: 100vh;
+   
   
     .container-galeria{
       
@@ -23,7 +24,7 @@
     .cabecerainfo{
     
       
-      height: 100vh;
+     
      
        display: flex;
        
